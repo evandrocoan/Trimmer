@@ -1,6 +1,10 @@
 # Trimmer
 
-[![Build Status](https://travis-ci.org/jonlabelle/Trimmer.svg?branch=master)](https://travis-ci.org/jonlabelle/Trimmer) [![Build status](https://ci.appveyor.com/api/projects/status/fdcdvfsip9d9efg3?svg=true)](https://ci.appveyor.com/project/jonlabelle/trimmer) [![Downloads](https://packagecontrol.herokuapp.com/downloads/Trimmer.svg?color=80d4cd)](https://packagecontrol.io/packages/Trimmer)
+[![Travis CI Build Status](https://travis-ci.org/jonlabelle/Trimmer.svg?branch=master)](https://travis-ci.org/jonlabelle/Trimmer)
+[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/fdcdvfsip9d9efg3?svg=true)](https://ci.appveyor.com/project/jonlabelle/trimmer)
+[![SonarQube Quality Gate Status](https://sonarcloud.io/api/badges/gate?key=org.jonlabelle-github:Trimmer:master)](https://sonarcloud.io/dashboard/index/org.jonlabelle-github:Trimmer:master)
+[![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)
+[![Latest Release](https://img.shields.io/github/tag/jonlabelle/Trimmer.svg?label=version)](https://github.com/jonlabelle/Trimmer/releases)
 
 [Trimmer](https://github.com/jonlabelle/Trimmer) is a [Sublime Text](http://www.sublimetext.com) plug-in for cleaning up whitespace.
 
@@ -18,6 +22,7 @@
 - Normalize spaces (consecutive spaces reduced, empty lines removed and lines trimmed).
 - Tokenize a string by collapsing consecutive spaces, and trimming leading and trailing spaces.
 - Delete empty, whitespace only HTML and XML tags.
+- Remove code comments and collapse lines.
 
 ## Additional Features
 
@@ -118,6 +123,7 @@ line (entire file).
 | `replace_smart_characters`         | replace smart characters (smart quotes, em/en dash, ellipsis, nbsp)                                    | selection, or entire file |
 | `tokenize_string`                  | convert a string to a token by collapsing consecutive spaces, and trimming leading and trailing spaces | selection, or entire file |
 | `delete_empty_tags`                | delete empty, whitespace only html and xml tags                                                        | selection, or entire file |
+| `remove_comments`                  | remove code comments and collapse lines                                                                | selection, or entire file |
 
 ## Author
 

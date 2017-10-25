@@ -6,7 +6,7 @@
 [![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)
 [![Latest Release](https://img.shields.io/github/tag/jonlabelle/Trimmer.svg?label=version)](https://github.com/jonlabelle/Trimmer/releases)
 
-[Trimmer](https://github.com/jonlabelle/Trimmer) is a [Sublime Text](http://www.sublimetext.com) plug-in for cleaning up whitespace.
+> [Trimmer](https://github.com/jonlabelle/Trimmer) is a [Sublime Text](http://www.sublimetext.com) plug-in for cleaning up whitespace.
 
 ## Features
 
@@ -28,21 +28,24 @@
 
 A **Replace Smart Characters** command that performs the following actions:
 
-* **Smart single quotes:** `’` *to* `'`
-* **Smart double quotes:** `“` *to* `"`
-* **German quotes:** `„` *to* `"` and `‚` *to* `'`
-* **Ellipsis:** `…` *to* `...`
-* **Em dash:** `—` *to* `---`
-* **En dash:** `–` *to* `--`
-* **Middle dot:** `•` *to* `*`
-* **Bullet:** `·` *to* `-`
-* **Em space** *to* three spaces
-* **En space** *to* two spaces
-* **Non-breaking space** *to* one space
-* **Thin space** *to* one space
-* **Hair space** *to* one space
-* **Left angle quote**: `«` *to* `<<`
-* **Right angle quote**: `»` *to* `>>`
+- **Smart single quotes:** `’` *to* `'`
+- **Smart double quotes:** `“` *to* `"`
+- **German quotes:** `„` *to* `"` and `‚` *to* `'`
+- **Ellipsis:** `…` *to* `...`
+- **Em dash:** `—` *to* `---`
+- **En dash:** `–` *to* `--`
+- **Middle dot:** `•` *to* `*`
+- **Bullet:** `·` *to* `-`
+- **Em space** *to* three spaces
+- **En space** *to* two spaces
+- **Non-breaking space** *to* one space
+- **Thin space** *to* one space
+- **Hair space** *to* one space
+- **Left angle quote:** `«` *to* `<<`
+- **Right angle quote:** `»` *to* `>>`
+- **Copyright symbol:** `©` *to* `(C)`
+- **Trademark symbol:** `™` *to* `(T)`
+- **Registered trademark symbol:** `®` *to* `(R)`
 
 ![ScreenShot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)
 

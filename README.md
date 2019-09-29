@@ -53,46 +53,28 @@ A **Replace Smart Characters** command that performs the following actions:
 
 Watch a [**Quick Demo**](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/demo.gif)
 
-## Install
 
-Trimmer is compatible with both Sublime Text 2 and 3 and all supported Operating Systems.
+## Installation
 
-### Package Control
+### By Package Control
 
-The easiest, and recommended way to install Trimmer is using [Package Control](https://packagecontrol.io).
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `Trimmer` and press <kbd>Enter</kbd>
 
-From the main application menu, navigate to:
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
-- `Tools` -> `Command Palette...` -> `Package Control: Install Package`, type
-  the word ***Trimmer***, then select it to complete installation.
-
-### Git
-
-To install Trimmer using Git, change to your **Sublime Text Packages** directory
-and clone the [Trimmer repository](https://github.com/jonlabelle/Trimmer).
-
-For example, on **OS X**... start a new **Terminal** session and enter the following
-commands:
-
-```shell
-$ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-$ git clone https://github.com/jonlabelle/Trimmer
-```
-
-### Manually
-
-**Download** and **extract** the [zip](https://github.com/jonlabelle/Trimmer/zipball/master)
-or [tarball](https://github.com/jonlabelle/Trimmer/tarball/master) to your
-Sublime Text packages directory.
-
-**Default Sublime Text Packages Paths:**
-
-* **OS X:** `~/Library/Application Support/Sublime Text [2|3]/Packages`
-* **Linux:** `~/.Sublime Text [2|3]/Packages`
-* **Windows:** `%APPDATA%/Sublime Text [2|3]/Packages`
-
-> **NOTE** Replace the `[2|3]` part with the appropriate Sublime Text
-> version for your installation.
 
 ## Usage
 
